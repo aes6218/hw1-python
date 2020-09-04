@@ -12,7 +12,7 @@ elif class1.lower()=="a-":
 elif class1.lower()=="b+":
     p1 = 3.33
 elif class1.lower()=="b":
-    p1 = 3
+    p1 = 3.0
 elif class1.lower()=="b-":
     p1 = 2.67
 elif class1.lower()=="c+":
