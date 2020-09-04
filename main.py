@@ -5,21 +5,21 @@ p2 = 0
 p3 = 0
 
 class1 = input("Enter your course 1 letter grade: ")
-if class1.lower()=="a" or class1.lower()=="a+":
+if class1=="A" or class1=="A+":
     p1 = 4.0
-elif class1.lower()=="a-":
+elif class1=="A-":
     p1 = 3.67
-elif class1.lower()=="b+":
+elif class1=="B+":
     p1 = 3.33
-elif class1.lower()=="b":
+elif class1=="B":
     p1 = 3.0
-elif class1.lower()=="b-":
+elif class1=="B-":
     p1 = 2.67
-elif class1.lower()=="c+":
+elif class1=="C+":
     p1 = 2.33
-elif class1.lower()=="c":
+elif class1=="C":
     p1 = 2.0
-elif class1.lower()=="d":
+elif class1=="D":
     p1 = 1.0
 else:
     p1 = 0.0
@@ -27,21 +27,21 @@ credit1 = float(input("Enter your course 1 credit: "))
 print(f"Grade point for course 1 is: {p1}")
 
 class2 = input("Enter your course 2 letter grade: ")
-if class2.lower()=="a" or class2.lower()=="a+":
+if class2=="A" or class2=="A+":
     p2 = 4.0
-elif class2.lower()=="a-":
+elif class2=="A-":
     p2 = 3.67
-elif class2.lower()=="b+":
+elif class2=="B+":
     p2 = 3.33
-elif class2.lower()=="b":
+elif class2=="B":
     p2 = 3.0
-elif class2.lower()=="b-":
+elif class2=="B-":
     p2 = 2.67
-elif class2.lower()=="c+":
+elif class2=="C+":
     p2 = 2.33
-elif class2.lower()=="c":
+elif class2=="C":
     p2 = 2.0
-elif class2.lower()=="d":
+elif class2=="D":
     p2 = 1.0
 else:
     p2 = 0.0
@@ -49,21 +49,21 @@ credit2 = float(input("Enter your course 2 credit: "))
 print(f"Grade point for course 2 is: {p2}")
 
 class3 = input("Enter your course 3 letter grade: ")
-if class3.lower()=="a" or class3.lower()=="a+":
+if class3=="A" or class3=="A+":
     p3 = 4.0
-elif class3.lower()=="a-":
+elif class3=="A-":
     p3 = 3.67
-elif class3.lower()=="b+":
+elif class3=="B+":
     p3 = 3.33
-elif class3.lower()=="b":
+elif class3=="B":
     p3 = 3.0
-elif class3.lower()=="b-":
+elif class3=="B-":
     p3 = 2.67
-elif class3.lower()=="c+":
+elif class3=="C+":
     p3 = 2.33
-elif class3.lower()=="c":
+elif class3=="C":
     p3 = 2.0
-elif class3.lower()=="d":
+elif class3=="D":
     p3 = 1.0
 else:
     p3 = 0.0
